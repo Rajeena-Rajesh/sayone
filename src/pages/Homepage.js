@@ -4,6 +4,7 @@ import { collection, getDocs } from "firebase/firestore";
 import fireDB from "../fireconfig";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+//import axios from 'axios'
 //import { fireproducts } from '../firecommerce-products';
 
 function Homepage() {
